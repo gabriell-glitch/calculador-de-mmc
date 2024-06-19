@@ -18,7 +18,7 @@ console.log('digite o proximo numero')
     } else{
         let mmc = numero2
         while(!(mmc % numero1 == 0 && mmc % numero2 == 0)){
-            mmc++;
+            mmc+=numero2;
         }
         for(let i=1; i<=numero1; i++){
             if(numero1%i==0 && numero2%i==0){
